@@ -6,72 +6,72 @@
     <title>Formulario.Teste</title>
 </head>
 <body>
-     <div>
-         <h1>Cadastro Pessoa</h1>
-         <h2>Complete suas imformações</h2>
+     <div class="campo">
+         <h1 id="titulo">Cadastro Pessoa</h1>
+         <h2 id="subtitulo">Complete suas imformações</h2>
          <br>
      </div>
 
      <form>
-         <fieldset>
-             <div>
-                 <label for="Nome ">Nome</label>
-                 <input type="text" name="nome" id="Nome ">
+         <fieldset class="grupo">
+             <div class="campo">
+                 <label for="Nome "><strong>Nome</strong></label>
+                 <input type="text" name="nome" id="Nome " required>
              </div>
-             <div>
-                 <label for="Sobrenome">Sobrenome</label>
-                 <input type="text" name="sobrenome" id="Sobrenome">
+             <div class="campo">
+                 <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                 <input type="text" name="sobrenome" id="Sobrenome" required>
              </div>
-             <div>
-                 <label for="Email">Email</label>
-                 <input type="email" name="Email" id="Email">
+             <div class="campo">
+                 <label for="Email"><strong>Email</strong></label>
+                 <input type="email" name="Email" id="Email" required>
              </div>
          </fieldset>
-         <div>
-             <label>Qual 'OS' você utiliza</label>
+         <div class="campo">
+             <label><strong>Qual 'OS' você utiliza</strong></label>
              <label>
-                 <input type="radio" name="userOS" value="Mac">Mac
+                 <input type="radio" name="userOS" value="Mac"><strong>Mac</strong>
              </label>
              <label>
-                 <input type="radio" name="userOS" value="Win" checked>Windows
+                 <input type="radio" name="userOS" value="Win" checked><strong>Windows</strong>
              </label>
              <label>
-                 <input type="radio" name="userOS" value="Linux">Linux
+                 <input type="radio" name="userOS" value="Linux"><strong>Linux</strong>
              </label>
          </div>
          
-         <div>
-             <label for="NivelOp">Nivel Operacional</label>
+         <div class="campo">
+             <label for="NivelOp"><strong>Nivel Operacional</strong></label>
              <select name="Nivel" id="NivelOp">
-                 <option selected disabled value="">Selecione</option>
-                 <option value="1">Basico</option>
-                 <option value="2">Medio</option>
-                 <option value="3">Avançado</option>
+                 <option selected disabled value=""><strong>Selecione</strong></option>
+                 <option value="1"><strong>Basico</strong></option>
+                 <option value="2"><strong>Medio</strong></option>
+                 <option value="3"><strong>Avançado</strong></option>
              </select>
          </div>
 
-         <fieldset>
-           <div>
-               <label>Selecione em modulos você tem utilizado</label>
+         <fieldset class="grupo">
+           <div class="campo">
+               <label><strong>Selecione em modulos você tem utilizado</strong></label>
                <input type="checkbox" id="modulo1" name="modulo1" value="HTML">
-               <label for="modulo1">HTML</label>l
+               <label for="modulo1"><strong>HTML</strong></label>l
                <input type="checkbox" id="modulo2" name="modulo2" value="CSS">
-               <label for="modulo2">CSS</label>l
+               <label for="modulo2"><strong>CSS</strong></label>l
                <input type="checkbox" id="modulo3" name="modulo3" value="JS">
-               <label for="modulo3">JS</label>l
+               <label for="modulo3"><strong>JS</strong></label>l
                <input type="checkbox" id="modulo4" name="modulo4" value="PYTHON">
-               <label for="modulo4">PYTHON</label>
+               <label for="modulo4"><strong>PYTHON</strong></label>
                <input type="checkbox" id="modulo5" name="modulo5" value="JAVA">
-               <label for="modulo5">JAVA</label>
+               <label for="modulo5"><strong>JAVA</strong></label>
            </div>
          </fieldset>
 
-         <div>
+         <div class="botao">
              <br>
-             <label>Conte um pouco da sua experiência</label>
+             <label for="exp"><strong>Conte um pouco da sua experiência</strong></label>
              <label for="exp"></label><textarea rows="6" style="width: 26cm" id="exp" name="exp"></textarea>
          </div>
-         <button type="submit">Comcluido</button>
+         <button type="submit"><strong>Comcluido</strong></button>
 
      </form>
 
