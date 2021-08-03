@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,9 +25,29 @@
              <div>
                  <label for="Email">Email</label>
                  <input type="email" name="Email" id="Email">
-
              </div>
          </fieldset>
+         <div>
+             <label>Qual 'OS' você utiliza</label>
+             <label>
+                 <input type="radio" name="userOS" value="Mac">Mac
+             </label>
+             <label>
+                 <input type="radio" name="userOS" value="Win" checked>Windows
+             </label>
+             <label>
+                 <input type="radio" name="userOS" value="Linux">Linux
+             </label>
+         </div>
+         
+         <div>
+             <label for="NivelOp">Nivel Operacional</label>
+             <select name="Nivel" id="NivelOp">
+                 <option value="1">Basico</option>
+                 <option value="2">Medio</option>
+                 <option value="3">Avançado</option>
+             </select>
+         </div>
      </form>
 </body>
 </html>
