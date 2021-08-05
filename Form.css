@@ -6,21 +6,21 @@
 #titulo{
     font-family: sans-serif;
     color: #cfff9d;
-    margin-left: 10% ;
+    margin-left: 7% ;
 }
 
 #subtitulo{
     font-family: sans-serif;
     color: #cfff9d;
-    margin-left: 7% ;
+    margin-left: 10% ;
 }
 
 fieldset{
-    border:5px;
+    border:0;
 }
 
 body{
-    background-color: black;
+    background-color: rgba(5,7,3,0.36);
     font-family: sans-serif;
     font-size: 1em;
     color: #cfff9d;
@@ -46,7 +46,7 @@ fieldset.grupo .campo{
     float: left;
     margin-right: 1em;
 }
-.campo input[type='text'], .campoe input[type='Email'] .campo select[type='textarea']{
+.campo input[type='text'], .campo input[type='Email'], .campo select[type='textarea']{
     padding: 0.2em;
     border: 1px solid #cfff9d;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
@@ -55,27 +55,53 @@ fieldset.grupo .campo{
 .campo select option{
     padding-right: 1em;
 }
-.campo input:focus. .campo select:focus. .campo textarea{
-    background-color: black;
+.campo input:focus, .campo select:focus, .campo textarea{
+    background-color: dimgrey;
 }
-.botao{
+.botao1{
     font-size: 1.2em;
-    background-color: blueviolet;
-    border: 1px;
-    color: #ffffff;
-    padding: 0.2em 0.2em;
-    box-shadow: 2px 2px 2px;
+    background-color: #cfff9d;
+    border: 0;
+    color:  rgba(5,7,3,0.36);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px; rgba(0,0,0,0.2)
     text-shadow: 1px 1px 1px; rgba(0,0,0,0.5);
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 55%;
+    left: 53.5%;
     margin-right: 50%;
     transform: translate(-50%, -50%);
 }
-.botao:hover{
+.botao2{
+    font-size: 1.2em;
+    background-color: #cfff9d;
+    border: 0;
+    color:  rgba(5,7,3,0.36);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px; rgba(0,0,0,0.2)
+    text-shadow: 1px 1px 1px; rgba(0,0,0,0.5);
+    position: absolute;
+    top: 80%;
+    left: 53.5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao1:hover{
     background: #ccbbff;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-emphasis: none;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.5);
+    text-shadow: none;
+}
+.botao2:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.5);
+    text-shadow: none;
+}
+
+.botao1 select{
+    cursor: pointer;
+}
+.botao2 select{
+    cursor: pointer;
 }
 #check{
     display: inline-block;
