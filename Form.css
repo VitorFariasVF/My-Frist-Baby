@@ -56,7 +56,7 @@ fieldset.grupo .campo{
     padding-right: 1em;
 }
 .campo input:focus, .campo select:focus, .campo textarea{
-    background-color: dimgrey;
+    background-color: #ccbbff;
 }
 .botao1{
     font-size: 1.2em;
@@ -102,6 +102,11 @@ fieldset.grupo .campo{
 }
 .botao2 select{
     cursor: pointer;
+}
+#NivelOp{
+    font-size: 1.2em;
+    background-color: #cfff9d;
+    border: 0;
 }
 #check{
     display: inline-block;
