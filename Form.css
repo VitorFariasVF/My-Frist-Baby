@@ -62,7 +62,7 @@ fieldset.grupo .campo{
     font-size: 1.2em;
     background-color: #cfff9d;
     border: 0;
-    color:  rgba(5,7,3,0.36);
+    color:  rgba(5,7,3,1);
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px; rgba(0,0,0,0.2)
     text-shadow: 1px 1px 1px; rgba(0,0,0,0.5);
@@ -76,12 +76,12 @@ fieldset.grupo .campo{
     font-size: 1.2em;
     background-color: #cfff9d;
     border: 0;
-    color:  rgba(5,7,3,0.36);
+    color:  rgba(5,7,3,1);
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px; rgba(0,0,0,0.2)
     text-shadow: 1px 1px 1px; rgba(0,0,0,0.5);
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 53.5%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -110,4 +110,14 @@ fieldset.grupo .campo{
 }
 #check{
     display: inline-block;
+}
+#body{
+    height: 1100px;
+    width: 550px;
+    position: absolute;
+    top: 20px;
+    left: 45px;
+}
+.textbotao{
+    background-color: black;
 }
