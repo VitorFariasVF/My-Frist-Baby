@@ -86,21 +86,56 @@ fieldset.grupo .campo{
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+.botao3{
+    font-size: 1.2em;
+    background-color: #cfff9d;
+    border: 0;
+    color:  rgba(5,7,3,1);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px; rgba(0,0,0,0.2)
+text-shadow: 1px 1px 1px; rgba(0,0,0,0.5);
+    position: absolute;
+    top: 70%;
+    left: 53.5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao4{
+    font-size: 1.2em;
+    background-color: #cfff9d;
+    border: 0;
+    color:  rgba(5,7,3,1);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px; rgba(0,0,0,0.2)
+text-shadow: 1px 1px 1px; rgba(0,0,0,0.5);
+    position: absolute;
+    top: 75%;
+    left: 53.5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
 .botao1:hover{
     background: #ccbbff;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.5);
     text-shadow: none;
 }
 .botao2:hover{
-    background: #ccbbff;
+    background: aqua;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.5);
     text-shadow: none;
 }
-
-.botao1 select{
-    cursor: pointer;
+.botao3:hover {
+    background: #ff2a2c;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: none;
 }
-.botao2 select{
+.botao4:hover {
+    background: #ffff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: none;
+}
+
+.botao1, .botao2, .botao3, .botao4 select{
     cursor: pointer;
 }
 #NivelOp{
